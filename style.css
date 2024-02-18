@@ -2,6 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
 
+@font-face{
+    font-family:"helvetica";
+    src:url("https://candyfonts.com/wp-data/2018/10/26/11538/HELR45W.ttf") format("woff"),
+    url("https://candyfonts.com/wp-data/2018/10/26/11538/HELR45W.ttf") format("opentype"),
+    url("https://candyfonts.com/wp-data/2018/10/26/11538/HELR45W.ttf") format("truetype");
+}
+
 * {
     padding: 0%;
     margin: 0%;
@@ -614,11 +621,12 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 72px;
-    width: 94px;
+    height: 60px;
+    width: 80px;
     background-color: #f6f6f6;
     aspect-ratio: 1.77778 / 1;
     border-radius: 7px;
+    margin-left: 14px;
 }
 
 .item_1_icon_img {
@@ -636,11 +644,12 @@ a {
 
 .nav_sec_1_item_1_content h1 {
     color: #111;
-    font-weight: 800;
+    font-weight: 600;
     line-height: 13px;
     letter-spacing: 1px;
-    font-size: 13px;
+    font-size: 10px;
     text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
 }
 
 .nav_sec_1_item_2 {
@@ -654,33 +663,35 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 72px;
-    width: 94px;
+    height: 60px;
+    width: 80px;
     background-color: #f6f6f6;
     aspect-ratio: 1.77778 / 1;
     border-radius: 7px;
-    margin-left: 1px;
+    margin-left: 9px;
 }
 
 .item_2_icon_img {
-    width: 100%;
-    height: 23vw;
+    width: 76%;
+    height: 19vw;
     margin-left: 4px;
     margin-right: -1px;
-    margin-top: 2px;
+    margin-top: 6px;
 }
 
 .nav_sec_1_item_2_content {
     margin-top: 7px;
+    margin-left: -4px;
 }
 
 .nav_sec_1_item_2_content h1 {
     color: #111;
-    font-weight: 800;
+    font-weight: 600;
     line-height: 13px;
     letter-spacing: 1px;
-    font-size: 13px;
+    font-size: 10px;
     text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
 }
 
 .nav_sec_1_item_3 {
@@ -693,16 +704,17 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 21vw;
-    width: 94px;
+    height: 60px;
+    width: 80px;
     background-color: #f6f6f6;
     aspect-ratio: 1.77778 / 1;
     border-radius: 7px;
+    margin-left: 8px;
 }
 
 .item_3_icon_img {
-    width: 98%;
-    height: 20vw;
+    width: 75%;
+    height: 15vw;
     margin-left: -1px;
     margin-right: -1px;
     margin-top: 2px;
@@ -710,16 +722,17 @@ a {
 
 .nav_sec_1_item_3_content {
     margin-top: 7px;
-    margin-left: -5px;
+    margin-left: -10px;
 }
 
 .nav_sec_1_item_3_content h1 {
     color: #111;
-    font-weight: 800;
+    font-weight: 600;
     line-height: 13px;
     letter-spacing: 1px;
-    font-size: 13px;
+    font-size: 10px;
     text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
 }
 
 /* nav_sec_2 */
@@ -764,11 +777,12 @@ a {
 
 .nav_sec_2_item_1_content h1 {
     color: #111;
-    font-weight: 800;
-    line-height: 14px;
+    font-weight: 600;
+    line-height: 13px;
     letter-spacing: 1px;
-    font-size: 13px;
+    font-size: 10px;
     text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
 }
 
 .nav_sec_2_item_2 {
@@ -803,13 +817,45 @@ a {
 
 .nav_sec_2_item_2_content h1 {
     color: #111;
-    font-weight: 800;
-    line-height: 14px;
+    font-weight: 600;
+    line-height: 13px;
     letter-spacing: 1px;
-    font-size: 13px;
+    font-size: 10px;
     text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
 }
 
+.nav_sec_2_item_3 {
+    width: 100%;
+    height: 100%;
+}
+
+.nav_sec_2_item_3_icon {
+    object-fit: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 21vw;
+    width: 94px;
+    background-color: #f6f6f6;
+    aspect-ratio: 1.77778 / 1;
+    border-radius: 7px;
+}
+
+.nav_sec_2_item_3_content {
+    margin-top: 7px;
+    margin-left: -5px;
+}
+
+.nav_sec_2_item_3_content h1 {
+    color: #111;
+    font-weight: 600;
+    line-height: 13px;
+    letter-spacing: 1px;
+    font-size: 10px;
+    text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
+}
 /* nav-sec-2-end, Home Page Navigation Section end */
 /* Home Content Continue, {newly added services section} */
 /* {newly added services section header} */
@@ -2217,6 +2263,15 @@ a {
 
     .n_a_s_s {
         margin-left: 8px;
+    }
+    .nav_sec_1_item_3_content h1 {
+        color: #111;
+        font-weight: 550;
+        line-height: 13px;
+        letter-spacing: 1px;
+        font-size: 10px;
+        text-align: center;
+        font-family: Helvetica, Arial, sans-serif;
     }
 
 
