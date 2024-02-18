@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Address Page</title>
+</head>
+
+<body>
+    <div class="user_address_page">
+        <div class="user_address_page_heading">
+            <h1>Your Current Location: Model Town, Andheri (W), Mumbai- 400053</h1>
+        </div>
+        <p id="location"></p>
+    </div>
+    <style>
+        .user_address_page {
+            width: 100%;
+            height: 177vw;
+            margin: 0%;
+            padding: 0%;
+            background-color: hsl(239.76deg 100% 49.41%);
+        }
+
+        .user_address_page_heading {
+            width: auto;
+            padding-left: 0px;
+            padding-top: 39vw;
+            margin-bottom: 150px;
+        }
+
+        .user_address_page_heading h1 {
+            font-size: 46px;
+            color: #fff;
+            letter-spacing: 1px;
+            font-weight: bold;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Share Tech', sans-serif;
+        }
+    </style>
+    <script>
+        // Redirect to homepage after 2 seconds
+        setTimeout(function () {
+            window.location.href = "homepage.html";
+        }, 3000); 
+    </script>
+</body>
+
+</html>
