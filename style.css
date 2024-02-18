@@ -32,7 +32,7 @@
 }
 
 .number-text p {
-    font-size: 0.9375rem !important;
+    font-size: 0.9375rem ;
     color: #fff !important;
     line-height: 18px !important;
     letter-spacing: 0px !important;
@@ -1862,7 +1862,7 @@ a {
 
     /* login page css */
     .button-89 {
-        margin-left: 27px;
+        margin-left: 26px;
     }
 
     .mx-auto {
@@ -1972,9 +1972,56 @@ a {
         margin-right: 0px;
         margin-top: -23px;
     }
+
+    .button-89 {
+        margin-left: 34px;
+    }
+
+    .mx-auto {
+        margin-top: 217px;
+    }
+
+    .nav_sec_2_item_1_icon {
+        margin-left: 16px;
+    }
+
+    .nav_sec_1_item_1_icon {
+        margin-left: 20px;
+    }
+
+    .nav_sec_1_item_2_icon {
+        margin-left: 14px;
+    }
+
+    .nav_sec_1_item_3_icon {
+        margin-left: 12px;
+    }
+
+    .nav_sec_2_item_2_res_class_1 {
+        margin-left: -5px;
+        margin-right: -10px;
+    }
 }
 
 @media (min-width: 390px) {
+
+    .mx-auto {
+        margin-left: 29px;
+        margin-top: 355px;
+    }
+
+    .number-text p {
+        font-size: 19px;
+    }
+
+    .button-89 {
+        margin-left: 37px;
+    }
+
+    .gs {
+        height: 217vw;
+    }
+
     .h_c_heading h1 {
         font-size: 35px;
     }
@@ -2159,8 +2206,8 @@ a {
 
     .nas_service_1 {
         width: 70%;
-    height: 22vw;
-    margin-top: 5px;
+        height: 22vw;
+        margin-top: 5px;
     }
 
     .n_a_s_s1 h1 {
